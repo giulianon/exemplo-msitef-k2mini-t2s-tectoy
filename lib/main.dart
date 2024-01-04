@@ -87,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
     DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
     AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
     _equipamento = androidInfo.model;
+    setState(() { });
   }
 
   @override
