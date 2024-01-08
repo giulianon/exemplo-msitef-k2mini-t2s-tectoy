@@ -13,3 +13,5 @@ Esse exemplo foi testado no K2 Mini e T2s com um pinpad Gertec PPC 930 USB.
 Observação: O m-Sitef ao ser chamado vai acessar o pinpad. No K2 Mini apareceu a tela de solicitação para dar a permissão. No T2s não apareceu. Caso isso aconteça basta ir nas configurações do app m-Sitef e dar as permissões. 
 
 3 - Configurar no arquivo com/example/flutter_tef_msitef/MainActivity.kt o endereço ip do SitDemo. Essa configuração de IP e todas as demais deveriam vir via parâmetro, mas pra deixar bem simples fixei direto no arquivo mesmo. Fique a vontade pra melhorar o exemplo :)
+
+Impressão do comprovante utilizando o plugin (Utilizando o plugin https://pub.dev/packages/sunmi_printer_plus)
